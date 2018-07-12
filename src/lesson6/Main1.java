@@ -16,7 +16,7 @@ public class Main1 {
         link2.add(5);
         link2.add(3);
         link2.add(7);
-        Collection<Integer> result=utils.union(link1,link2);
+        Collection<Integer> result=utils.difference(link1,link2);
         for (Iterator<Integer> iter = result.iterator(); iter.hasNext();) {
             System.out.println(iter.next());
         }
