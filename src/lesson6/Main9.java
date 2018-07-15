@@ -10,7 +10,7 @@ public class Main9 {
         colDoubl.add(11.9);
         colDoubl.add(2.4);
         colDoubl.add(7.3);
-        sortObj.sortedList(colDoubl);
+        sortObj.sortedList(null);
 
         System.out.println(colDoubl);
     }
