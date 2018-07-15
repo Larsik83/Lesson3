@@ -12,7 +12,6 @@ public class CollectionUtilImpl implements CollectionUtils{
             union.add(iter.next());
         }
         return union;
-
     }
 
     @Override
