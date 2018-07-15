@@ -7,5 +7,7 @@ public class Main8 {
         ListUtilImpl obj1= new ListUtilImpl();
         List<String> ab=obj1.asList("Hello", "Winter","Summer","Night");
         System.out.println(ab);
+        int o;
+
     }
 }
